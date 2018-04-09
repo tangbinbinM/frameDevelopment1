@@ -19,11 +19,11 @@
     self.title = @"相框";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    UIImage *testImage  = [UIImage imageNamed:@"kuang1"];
+    UIImage *testImage  = [UIImage imageNamed:@"kuang3"];
     testImage = [testImage resizableImageWithCapInsets:UIEdgeInsetsMake(17, 17, 17, 17) resizingMode:UIImageResizingModeStretch];
     
     UIImageView *testImageView = [[UIImageView alloc] initWithImage:testImage];
-    testImageView.frame = CGRectMake(10, 70, 100, 180);
+    testImageView.frame = CGRectMake(10, 70, 200, 400);
     [self.view addSubview:testImageView];
 }
 
